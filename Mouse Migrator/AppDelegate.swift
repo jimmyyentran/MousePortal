@@ -26,7 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         eventHandler = GlobalEventMonitor(mask: NSEventMask.mouseMoved, handler: { (mouseEvent: NSEvent) in
             x = mouseEvent.locationInWindow.x
             y = mouseEvent.locationInWindow.y
-            print(x, y)
+//            print(x, y)
             if y < displayLy {
                 return
             }
