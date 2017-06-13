@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import Mouse_Migrator
+@testable import MousePortal
 
-class Mouse_MigratorTests: XCTestCase {
+class MousePortalTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

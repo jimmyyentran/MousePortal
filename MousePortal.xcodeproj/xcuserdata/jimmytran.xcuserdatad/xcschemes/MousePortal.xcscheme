@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0BD53EA1EEF9A6700D47A5F"
-               BuildableName = "Mouse Portal.app"
-               BlueprintName = "Mouse Portal"
-               ReferencedContainer = "container:Mouse Portal.xcodeproj">
+               BuildableName = "MousePortal.app"
+               BlueprintName = "MousePortal"
+               ReferencedContainer = "container:MousePortal.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0BD53FB1EEF9A6700D47A5F"
-               BuildableName = "Mouse PortalTests.xctest"
-               BlueprintName = "Mouse PortalTests"
-               ReferencedContainer = "container:Mouse Portal.xcodeproj">
+               BuildableName = "MousePortalTests.xctest"
+               BlueprintName = "MousePortalTests"
+               ReferencedContainer = "container:MousePortal.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0BD53EA1EEF9A6700D47A5F"
-            BuildableName = "Mouse Portal.app"
-            BlueprintName = "Mouse Portal"
-            ReferencedContainer = "container:Mouse Portal.xcodeproj">
+            BuildableName = "MousePortal.app"
+            BlueprintName = "MousePortal"
+            ReferencedContainer = "container:MousePortal.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0BD53EA1EEF9A6700D47A5F"
-            BuildableName = "Mouse Portal.app"
-            BlueprintName = "Mouse Portal"
-            ReferencedContainer = "container:Mouse Portal.xcodeproj">
+            BuildableName = "MousePortal.app"
+            BlueprintName = "MousePortal"
+            ReferencedContainer = "container:MousePortal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0BD53EA1EEF9A6700D47A5F"
-            BuildableName = "Mouse Portal.app"
-            BlueprintName = "Mouse Portal"
-            ReferencedContainer = "container:Mouse Portal.xcodeproj">
+            BuildableName = "MousePortal.app"
+            BlueprintName = "MousePortal"
+            ReferencedContainer = "container:MousePortal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
