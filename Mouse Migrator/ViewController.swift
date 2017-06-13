@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Mouse Migrator
+//  Mouse Portal
 //
 //  Created by Jimmy Tran on 6/12/17.
 //  Copyright © 2017 Jimmy Tran. All rights reserved.
