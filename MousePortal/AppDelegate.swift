@@ -24,19 +24,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let displayRxPad = displayRx + pad
         
         eventHandler = GlobalEventMonitor(mask: NSEventMask.mouseMoved, handler: { (mouseEvent: NSEvent) in
-            x = mouseEvent.locationInWindow.x
-            y = mouseEvent.locationInWindow.y
-//            print(x, y)
-            if y < displayLy {
-                return
-            }
-            if x > displayLxPad && x <= displayLx {
-                let eventRef = CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: displayRxPad, y: -y + displayLy), mouseButton: CGMouseButton.center)
-                eventRef?.post(tap: CGEventTapLocation.cghidEventTap)
-            }
-            if x < displayRxPad && x >= displayRx {
-                let eventRef = CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: displayLxPad, y: -y + displayLy), mouseButton: CGMouseButton.center)
-                eventRef?.post(tap: CGEventTapLocation.cghidEventTap)
+            if mouseEvent.locationInWindow.y >= displayLy {
+                x = mouseEvent.locationInWindow.x
+                y = mouseEvent.locationInWindow.y
+                if x > displayLxPad && x <= displayLx {
+                    let eventRef = CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: displayRxPad, y: -y + displayLy), mouseButton: CGMouseButton.center)
+                    eventRef?.post(tap: CGEventTapLocation.cghidEventTap)
+                }
+                if x < displayRxPad && x >= displayRx {
+                    let eventRef = CGEvent(mouseEventSource: nil, mouseType: CGEventType.mouseMoved, mouseCursorPosition: CGPoint(x: displayLxPad, y: -y + displayLy), mouseButton: CGMouseButton.center)
+                    eventRef?.post(tap: CGEventTapLocation.cghidEventTap)
+                }
             }
         })
         eventHandler?.start()
